@@ -1,0 +1,19 @@
+{
+    "name"                      : "example-nodejs",
+    "description"               : "",
+    "version"                   : "0.0.5",
+    "author"                    : "Nicolas Herment <nherment@gmail.com>",
+    "private"                   : true,
+    "contributors": [
+    ],
+    "dependencies": {
+    },
+    "devDependencies": {
+        "should"                : "0.6.3"
+    },
+    "scripts": {
+        "test"                  : "mocha"
+    },
+    "repository"                : "https://github.com/nherment/example-nodejs",
+    "main"                      : "index"
+}
