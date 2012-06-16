@@ -10,4 +10,8 @@ describe("When testing", function() {
 
   })
 
+
+	it("a dummy assert", function() {
+        should.be.ok(true)
+    }
 })
