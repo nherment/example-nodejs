@@ -6,8 +6,7 @@ describe("When testing", function() {
 
   it("a hello world", function() {
 
-    //f().should.equal("Hello World")
-    should.exist(true)
+    f().should.equal("Hello World")
 
   })
 
@@ -29,7 +28,7 @@ describe("When testing", function() {
   it("mocha should timeout", function(done) {
     setTimeout(function() {
       done()
-    }, 20)
+    }, 2002)
   })
 
 })
