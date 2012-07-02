@@ -6,8 +6,7 @@ describe("When testing", function() {
 
   it("a hello world", function() {
 
-//    f().should.equal("Hello World")
-should.ok(true)
+    f().should.equal("Hello World")
   })
 
 
@@ -16,8 +15,7 @@ should.ok(true)
   })
 
   it("that an error is thrown", function() {
-    //throw new Error("You should see that")
-    should.exist(true)
+    throw new Error("You should see that")
   })
 
   it("an async timeout", function(done) {
@@ -28,7 +26,7 @@ should.ok(true)
   it("mocha should timeout", function(done) {
     setTimeout(function() {
       done()
-    }, 200)
+    }, 2010)
   })
 
 })
