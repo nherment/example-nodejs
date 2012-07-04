@@ -5,7 +5,6 @@ var should = require("should")
 describe("When testing", function() {
 
   it("a hello world", function() {
-
     f().should.equal("Hello World")
   })
 
@@ -23,6 +22,7 @@ describe("When testing", function() {
       done()
     }, 200)
   })
+
   it("mocha should timeout", function(done) {
     setTimeout(function() {
       done()
